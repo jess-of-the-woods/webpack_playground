@@ -1,4 +1,4 @@
-require('./logger.es6')
+require('./logger.es6');
 
 document.write('welcome to my appppp yea');
 
