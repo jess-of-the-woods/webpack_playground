@@ -1,3 +1,5 @@
-document.write('welcome to my app');
+require('./logger')
 
-console.log('app loaded');
+document.write('welcome to my appppp yea');
+
+console.log('app! loaded as fuck yo!');
