@@ -12,4 +12,4 @@ resolve: {
 ```
 in webpack.config.js should mean it will work without needing to rename.
 
-Based on the [Beginner's guide to Webpack](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.anh3ggrrl) tutorial
+Based on the Beginner's guide to Webpack [tutorial](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.anh3ggrrl) | [repo](https://github.com/dabit3/beginning-webpack)
