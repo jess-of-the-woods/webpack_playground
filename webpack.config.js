@@ -4,18 +4,27 @@ module.exports = {
    filename: "bundle.js"
  },
  module: {
-   loaders: [
+  preLoaders: [
      {
-       test: /\.es6$/,
+       test: /\.js$/,
        exclude: /node_modules/,
-       loader: 'babel-loader',
-       query: {
-         presets: ['react', 'es2015']
-       }
+       loader: 'jshint-loader'
+
      }
-   ]
- },
- resolve: {
-   extensions: ['', '.js', '.es6']
- },
+  ],
+  loaders: [
+    {
+      test: /\.es6$/,
+      exclude: /node_modules/,
+      loader: 'babel-loader',
+      query: {
+         cacheDirectory: true,
+         presets: ['react', 'es2015']
+      }
+     }
+  ]
+},
+resolve: {
+  extensions: ['', '.js', '.es6']
+}
 }
